@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/******** Global declaration of the node structure *********/
+/******** Global declaration of the NODE structure *********/
 
 typedef struct node
 {
