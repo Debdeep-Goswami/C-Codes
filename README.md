@@ -1,6 +1,3 @@
 C-Codes
-______________________________________________
-1. star.c
 
-
-______________________________________________
+It contains someuseful codes and created functions
