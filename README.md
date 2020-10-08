@@ -1,3 +1,3 @@
 C-Codes
 
-It contains someuseful codes and created functions
+It contains some useful codes and utility functions
