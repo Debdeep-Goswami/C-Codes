@@ -6,7 +6,7 @@ int readLine(char *string)
 {	
 
 	/***************************************************************
-		Use			:-	To reads a complete line from stdin/console
+		Use		:-	To reads a complete line from stdin/console
 		
 		Arguments	:-	The char array where the line will be stored
 		
