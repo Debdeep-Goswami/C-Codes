@@ -13,5 +13,7 @@ void TOH(int n,char x,char y,char z)
 int main()
 {
 	int n=3;
+	printf("\nEnter the Number of Disks = ");
+	scanf("%d",&n);
 	TOH(n,'A','B','C');
 }
