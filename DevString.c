@@ -13,7 +13,7 @@ int readLine(char *string)
 {	
 
 	/***************************************************************
-		Use			:-	To reads a complete line from stdin/console
+		Useage		:-	To reads a complete line from stdin/console
 		
 		Arguments	:-	The char array where the line will be stored
 		
@@ -54,7 +54,7 @@ int readLine(char *string)
 void show_char_array(char *line)
 {
 	/***************************************************************
-		Use			:-	To display the charaters inside a string
+		Useage		:-	To display the charaters inside a string
 		
 		Arguments	:-	The char array to be displayed
 		
@@ -79,7 +79,7 @@ void show_char_array(char *line)
 char* upper(char *line)
 {
 	/***************************************************************************
-		Useage		:-	To change every charaters inside a string to UPPER CASE
+		Useage		:-	To change every charaters inside a string to UPPER CASE.
 						It keeps original string unchanged.
 		
 		Arguments	:-	The string to be used for this functionality
@@ -106,7 +106,7 @@ char* upper(char *line)
 char* lower(char *line)
 {
 	/***************************************************************************
-		Useage		:-	To change every charaters inside a string to LOWER CASE
+		Use			:-	To change every charaters inside a string to LOWER CASE.
 						It keeps original string unchanged.
 		
 		Arguments	:-	The string to be used for this functionality
