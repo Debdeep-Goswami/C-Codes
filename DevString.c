@@ -106,7 +106,7 @@ char* upper(char *line)
 char* lower(char *line)
 {
 	/***************************************************************************
-		Use			:-	To change every charaters inside a string to LOWER CASE.
+		Useage		:-	To change every charaters inside a string to LOWER CASE.
 						It keeps original string unchanged.
 		
 		Arguments	:-	The string to be used for this functionality
