@@ -79,7 +79,7 @@ void show_char_array(char *line)
 char* upper(char *line)
 {
 	/***************************************************************************
-		Useage		:-	To change every charaters inside a string to UPPER case
+		Useage		:-	To change every charaters inside a string to UPPER CASE
 						It keeps original string unchanged.
 		
 		Arguments	:-	The string to be used for this functionality
@@ -103,6 +103,33 @@ char* upper(char *line)
 	return line2;
 }
 
+char* lower(char *line)
+{
+	/***************************************************************************
+		Useage		:-	To change every charaters inside a string to LOWER CASE
+						It keeps original string unchanged.
+		
+		Arguments	:-	The string to be used for this functionality
+		
+		Return 		:-	The modified string.
+		
+	****************************************************************************/
+	
+	//	To store the modified string
+	static char line2[MAX];
+	
+	int i=0;
+	
+	//	Loop to change the case of each charater 
+	for(i=0;line[i];i++)
+	{
+		line2[i]=tolower(line[i]);
+	}
+	
+	//	Modified String
+	return line2;
+}
+
 int main()
 {
 	char line[MAX];
@@ -116,11 +143,12 @@ int main()
 	puts(line);
 	
 	show_char_array(line);
+	
 	printf("\nUpper String is ");
 	puts(upper(line));
-	/*
+	
 	printf("\nLower String is ");
 	puts(lower(line));
-	*/
+	
 	return 0;
 }
