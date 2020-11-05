@@ -130,6 +130,36 @@ char* lower(char *line)
 	return line2;
 }
 
+char* camel(char *line)
+{
+	/***************************************************************************
+		Useage		:-	To change every charaters inside a string to LOWER CASE.
+						It keeps original string unchanged.
+		
+		Arguments	:-	The string to be used for this functionality
+		
+		Return 		:-	The modified string.
+		
+	****************************************************************************/
+	
+	//	To store the modified string
+	static char line2[MAX];
+	
+	int i=0;
+	
+	//	Loop to change the case of each charater 
+	for(i=0;line[i];i++)
+	{
+		if(i==0 || line[i-1]==' ')
+			line2[i]=toupper(line[i]);
+		else
+			line2[i]=tolower(line[i]);
+	}
+	
+	//	Modified String
+	return line2;
+}
+
 int main()
 {
 	char line[MAX];
@@ -144,11 +174,14 @@ int main()
 	
 	show_char_array(line);
 	
-	printf("\nUpper String is ");
+	printf("\nUpper String is = ");
 	puts(upper(line));
 	
-	printf("\nLower String is ");
+	printf("\nLower String is = ");
 	puts(lower(line));
+	
+	printf("\nCamel Case String is = ");
+	puts(camel(line));
 	
 	return 0;
 }
