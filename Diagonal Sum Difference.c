@@ -2,7 +2,8 @@
 #include<math.h>
  
 
-int diagonalDifference(int arr_rows, int arr_columns, int arr[3][3]) {
+int diagonalDifference(int arr_rows, int arr_columns, int arr[3][3]) 
+{
     int i,j;
     int lsum=0;
     int rsum=0;
